@@ -19,7 +19,7 @@ Output
 ```
 donneko@QZ103 site-map % npx map https://www.donneko.net/
 
-> site-map@1.0.0 test
+> site-map@0.0.1 test
 > tsx test.ts
 
 >└─ net
