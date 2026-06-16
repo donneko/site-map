@@ -1,9 +1,8 @@
 {
-  "name": "site-map",
+  "name": "@donneko/site-map",
   "version": "0.0.1",
   "scripts": {
     "dev": "tsx src/main.ts",
-    "test": "tsx test.ts",
     "typecheck": "tsc --noEmit"
   },
   "types": "./dist/index.d.ts",
@@ -14,7 +13,7 @@
     "README.md"
     ],
   "bin": {
-    "map": "dist/main.js"
+    "site-map": "dist/main.js"
   },
   "main": "./dist/index.js",
   "type": "module",

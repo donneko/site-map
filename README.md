@@ -12,12 +12,12 @@ Site scan may take 1–30 seconds. Large sites may take longer or trigger warnin
 
 Input
 ```
-npx map https://www.donneko.net/
+npx site-map https://www.donneko.net/
 ```
 
 Output
 ```
-donneko@QZ103 site-map % npx map https://www.donneko.net/
+donneko@QZ103 site-map % npx site-map https://www.donneko.net/
 
 > site-map@0.0.1 test
 > tsx test.ts

@@ -6,7 +6,9 @@
     "strict": true,
     "types": ["node"],
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "declaration": true,
+    "emitDeclarationOnly": true
   },
   "include": ["src/**/*.ts"]
 }
