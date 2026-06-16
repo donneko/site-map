@@ -32,7 +32,6 @@ function addCommand(cmdHandler:CommandHandler<MetaData>){
         }
         await run(data);
     })
-    .add("run",run)
     .add("help",help);
 }
 
@@ -60,8 +59,8 @@ function getOption(argv:string[]){
 function getMetaData(argv:string[]):MetaData{
     return {
         pack:{
-            version:"0.0.5",
-            name:""
+            version:"0.0.1",
+            name:"site-map"
         },
         cli:{
             cwd:process.cwd(),
