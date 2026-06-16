@@ -22,7 +22,7 @@
   "keywords": [],
   "author": "丼猫",
   "license": "MIT",
-  "description": "",
+  "description": "site-map create a site map.",
   "devDependencies": {
     "@types/minimist": "^1.2.5",
     "@types/node": "^25.9.3",
