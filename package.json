@@ -11,9 +11,8 @@
     "dist",
     "doc",
     "LICENSE",
-    "README.md",
-    "CHANGELOG.md"
-  ],
+    "README.md"
+    ],
   "bin": {
     "map": "dist/main.js"
   },
