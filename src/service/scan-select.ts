@@ -1,4 +1,4 @@
-import { Page } from "playwright";
+import type { Page } from "playwright";
 
 export async function scanSelect(page:Page,select:string,attribute:string):Promise<string[]>{
     const links = page.locator(select);
