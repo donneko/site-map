@@ -1,7 +1,7 @@
 
-![site map title image png](./doc/img/site-map.png)
+![site map title image png](./docs/img/site-map.png)
 
-site-map creates a site map.
+Easily creates a site map.
 > Warning: in development
 
 

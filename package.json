@@ -3,24 +3,30 @@
   "version": "0.0.2",
   "scripts": {
     "dev": "tsx src/main.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build": "npx tsc",
+    "prepack": "npm run build"
   },
   "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "doc",
+    "dist/",
+    "docs/",
     "LICENSE",
     "README.md"
   ],
   "bin": {
     "site-map": "dist/main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donneko/site-map.git"
+  },
   "main": "./dist/index.js",
   "type": "module",
   "keywords": [],
   "author": "丼猫",
   "license": "MIT",
-  "description": "site-map create a site map.",
+  "description": "Easily create a site map.",
   "dependencies": {
     "@donneko/tyoi-cli": "^0.0.1",
     "@donneko/tyoi-logger": "^0.0.1"
