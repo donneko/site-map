@@ -1,7 +1,8 @@
-import type { CmdMetaData } from "../main.js";
-import { logger } from "../../util/logger.js";
+import { Logger } from "@donneko/tyoi-logger";
+import type { CmdMetaData } from "../types/tyoi-cli.js";
 
 export default function serverHelp(data:CmdMetaData){
+    const logger = new Logger();
 
     logger.window({
         title:"help 表示 | help display",

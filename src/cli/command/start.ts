@@ -1,4 +1,4 @@
-import type { CmdMetaData } from "../main.js";
+import type { CmdMetaData } from "../types/tyoi-cli.js";
 import { siteMap } from "../../app/app.js";
 
 export async function siteScan(scans:string[]){
