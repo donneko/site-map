@@ -1,6 +1,6 @@
 {
   "name": "@donneko/site-map",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "tsx src/main.ts",
     "typecheck": "tsc --noEmit"
@@ -26,7 +26,6 @@
     "@donneko/tyoi-logger": "^0.0.1"
   },
   "devDependencies": {
-    "@types/minimist": "^1.2.5",
     "@types/node": "^25.9.3",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
